@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    background: #f2f2f2;
+}
+
+.container{
+    background: white;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.container h2{
+    font-size: 24px;
+    line-height: 24px;
+    padding: 30px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Input-name{
+    width: 90%;
+    position: relative;
+    margin: 15px auto;
+}
+
+.user{
+    padding: 8px 10px;
+}
+
+.name{
+    width: 45%;
+    margin-bottom: 1rem;
+    padding: 8px 0 8px 30px;
+}
+
+.Input-name span{
+    margin-left: 25px;
+}
+
+.text-name{
+   width: 100%; 
+   padding: 8px 0 8px 30px;
+}
+
+.Input-name i{
+    position: absolute;
+    font-size: 18px;
+    color: blue;
+    border-right: 1px solid blue;
+
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
